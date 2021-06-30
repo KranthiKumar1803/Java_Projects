@@ -35,14 +35,3 @@ public class StaticDemo {
     }
 }
 
-//class TestStaticDemo{
-//    public static void main(String[] args) {
-//        StaticDemo objAlias = new StaticDemo();
-//
-//
-//
-//
-//       // objAlias.getEmployeeInfo();
-//
-//    }
-//}
