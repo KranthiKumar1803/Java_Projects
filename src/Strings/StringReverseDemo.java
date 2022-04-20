@@ -1,19 +1,37 @@
 package Strings;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class StringReverseDemo {
     public static void main(String[] args) {
-        String s = "Learn to be Success";
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder  = stringBuilder.append(s);
-        System.out.println("Revesre the String ::" + stringBuilder.reverse());
 
-        StringBuffer sbf = new StringBuffer();
+        List<String> mockList = new ArrayList<>();
+
+        mockList.add("Learn to be Success");
+        mockList.add("CODE");
+        mockList.add("BUFFER");
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder  = stringBuilder.append(mockList);
+
+       System.out.println("Revesre the Strings List ::" + stringBuilder.reverse());
+
+       StringBuffer sf = new StringBuffer();
+
+       sf.append(mockList);
+
+       System.out.println("Using StringBuffer :: " + sf.reverse());
+
+        System.out.println("Using StringBuffer to se capacity():: " + sf.capacity());
+
+      /*  StringBuffer sbf = new StringBuffer();
         sbf = sbf.append(s);
       //  System.out.println("Revesre the String ::" + sbf.reverse());
         System.out.println("Deleting at particular char Type on a  String ::" + sbf.delete(2,14));
 
         System.out.println("Revesre the String ::" + sbf.capacity());
       //  System.out.println("Revesre the String ::" + sbf.substring(6,9));
-        System.out.println("Revesre the String ::" + sbf);
+        System.out.println("Revesre the String ::" + sbf);*/
+
     }
 }

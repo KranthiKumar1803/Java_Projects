@@ -1,3 +1,4 @@
+/*
 package Lambdas;
 
 import Interfaces.BaseInterface;
@@ -41,3 +42,4 @@ public class TestFuncInters implements BaseInterface {
 
     }
 }
+*/
