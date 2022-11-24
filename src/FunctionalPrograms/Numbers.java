@@ -3,11 +3,16 @@ package FunctionalPrograms;
 
 @FunctionalInterface
 public interface Numbers {
+    int factorialFunction(int n);
 
-    int expectNumber(int n);
+    default int expectNumber(int i){
 
-    default void expectName(String name) {
-
-        return;
+        return i;
     }
+
+    default String stringReverseLogic(String n){
+
+        return n;
+    }
+
 }

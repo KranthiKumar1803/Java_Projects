@@ -7,24 +7,6 @@ public class PrintingNumbers {
 
     public static void main(String[] args) {
 
-        Numbers myNum = new Numbers() {
-            @Override
-            public int expectNumber(int n) {
-
-                if(n % 2 == 0){
-
-                    return 2;
-                }
-                else if(n % 3 == 0) {
-
-                    return 0;
-                }
-                    else {
-                        return -1;
-                }
-            }
-        };
-
         Numbers myNum2 = (n) -> 234;
 
         System.out.println("Using FI to fetch the data  :: " + myNum2.expectNumber(2));
