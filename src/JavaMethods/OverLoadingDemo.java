@@ -1,7 +1,5 @@
 package JavaMethods;
 
-import com.java.practice.Main;
-
 public class OverLoadingDemo {
     public void addclass(int a, int b){
 //        a = 10;
