@@ -7,12 +7,13 @@ package ArrayList;
  * .set modifies the element at particular index
  * .remove(index)
  * .remove(object) -> object of specific type
- * removeAll(c); c =  subPrograms it removes the collection mentioned
- * .clear(); removes everything from the list and display empty list []
+ * removeAll(c); c =  subPrograms it removes the collection mentioned with O(n^2) takes a while to remove data
+ * .clear(); removes everything from the list and display empty list [] it resets the List
  */
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class ArraylistAccessandMethods {
 
@@ -31,7 +32,7 @@ public class ArraylistAccessandMethods {
         System.out.println("Here is the programs list ::" + arrayListObj);
         System.out.println("Here is the programs list and it's size::" + arrayListObj.size());
 
-        System.out.println("Best Language in the programs list ::" + arrayListObj);
+        System.out.println("Best Language in the programs list ::" + arrayListObj.get(0));
 
         //Lets modify the list
 

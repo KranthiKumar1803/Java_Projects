@@ -18,7 +18,10 @@ public class ArraylistDemo {
         fruits.add("jack fruit");
         fruits.add("banana");
 
-        System.out.println("Output ::" +fruits);
+        System.out.println("Output ::" + fruits);
+
+        System.out.println("Output get()::" + fruits.get(2));
+
 
        /* if (fruits.contains("banana")){
             System.out.println("In the If loop::" );
