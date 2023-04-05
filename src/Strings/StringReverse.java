@@ -1,8 +1,6 @@
 package Strings;
 
 
-import java.time.Instant;
-
 /**
  * We are reversing the String not using reverse() method
  * but without that. Lets see how!
@@ -13,9 +11,9 @@ public class StringReverse {
     public static void main(String[] args) {
         String str1 = "BucchiBabu";
 
-       // String str2 = "Anil";
-
         char[] chars = str1.toCharArray();
+        System.out.println("Sequence of chars ::" + chars.length);
+
 
         for (int i = chars.length - 1; i >= 0 ; i--){
 

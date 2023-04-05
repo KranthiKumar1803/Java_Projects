@@ -7,7 +7,7 @@ public interface Numbers {
 
     default int expectNumber(int i){
 
-        return i;
+        return i + i;
     }
 
     default String stringReverseLogic(String n){

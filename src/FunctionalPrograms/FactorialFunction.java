@@ -17,7 +17,7 @@ public class FactorialFunction {
 
         };
 
-        System.out.println("Print factorialLogic ::" + factorialLogic.factorialFunction(6) );
+        System.out.println("Print factorialLogic ::" + factorialLogic.factorialFunction(5) );
 
     }
 }

@@ -7,7 +7,7 @@ public class PrintingNumbers {
 
     public static void main(String[] args) {
 
-        Numbers myNum2 = (n) -> 234;
+        Numbers myNum2 = (n) -> 2;
 
         System.out.println("Using FI to fetch the data  :: " + myNum2.expectNumber(2));
 

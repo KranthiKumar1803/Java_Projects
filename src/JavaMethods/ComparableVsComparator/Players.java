@@ -3,7 +3,6 @@ package JavaMethods.ComparableVsComparator;
 
 import lombok.*;
 
-import java.util.Comparator;
 
 @AllArgsConstructor
 @NoArgsConstructor
